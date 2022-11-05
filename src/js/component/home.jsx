@@ -21,17 +21,7 @@ const Home = () => {
 			<Nav className="me-auto">
 			  <Nav.Link href="#home" className="text-light">Home</Nav.Link>
 			  <Nav.Link href="#link" className="text-light">Link</Nav.Link>
-			  <NavDropdown title="Dropdown" id="basic-nav-dropdown" variannt="text-light">
-				<NavDropdown.Item href="#action/3.1" className="text-light">Action</NavDropdown.Item>
-				<NavDropdown.Item href="#action/3.2" className="text-light">
-				  Another action
-				</NavDropdown.Item>
-				<NavDropdown.Item href="#action/3.3" className="text-light">Something</NavDropdown.Item>
-				<NavDropdown.Divider />
-				<NavDropdown.Item href="#action/3.4" className="text-light">
-				  Separated link
-				</NavDropdown.Item>
-			  </NavDropdown>
+			  <Nav.Link href="#link" className="text-light">Dropdown</Nav.Link>
 			</Nav>
 		  </Navbar.Collapse>
 		</Container>
@@ -55,7 +45,7 @@ const Home = () => {
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
      </Card>
-	 <Card style={{ width: '20rem' }}>
+	 <Card style={{ width: '21rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
@@ -77,7 +67,7 @@ const Home = () => {
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
      </Card>
-	 <Card style={{ width: '20rem' }}>
+	 <Card style={{ width: '21rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
